@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Números Primos en un Rango</title>
+</head>
+<body>
+<h2>Ingrese el rango para verificar números primos</h2>
+
+<!-- Formulario que envía datos al servlet "PrimeServlet" mediante método POST -->
+<form action="Servlet" method="post">
+
+    <!-- Campo de entrada para el incio del rango -->
+    <label for="inicio">Inicio del rango:</label>
+    <input type="number" id="inicio" name="inicio" min="1" required><br><br>
+
+    <!-- Campo de entrada de final de rango -->
+    <label for="fin">Fin del rango:</label>
+    <input type="number" id="fin" name="fin" min="1" required><br><br>
+
+    <!-- Botón para enviar el formulario -->
+    <input type="submit" value="Verificar Primos">
+</form>
+</body>
+</html>
